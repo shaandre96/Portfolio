@@ -1,3 +1,5 @@
+import fetch from "node-fetch";
+
 const api_url = "https://zenquotes.io/api/quotes";
 
 async function getapi(url){

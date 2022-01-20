@@ -1,11 +1,30 @@
 html {
     font-family: Verdana;
     background-color: black;
+    color: white;
+    text-align: center;
 }
 
 h1 {
     font-weight: normal;
     font-size: 50px;
-    color: white;
-    text-align: center;
+}
+
+h2 {
+    font-weight: 300;
+    font-size: 42px;
+}
+
+p {
+    font-size: 21px;
+    color: grey;
+}
+
+footer {
+    text-align: right;
+}
+
+.download {
+    color: aquamarine;
+    font-size: 16px;
 }

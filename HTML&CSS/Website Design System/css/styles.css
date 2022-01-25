@@ -5,22 +5,38 @@ h1 {
 }
 
 
-h2 {
+h2, #sub {
     font-family: Lato;
     font-weight: 700;
     font-size: 18px;
 }
 
-p {
-    font-family: "Open Sans";
+p, #text {
+    font-family: 'Open Sans';
     font-weight: 400;
     font-size: 14px;
 }
 
-.colors div{
+section {
+    border: 1px solid grey;
+    margin: 10px auto;
+    padding: 10px;
+    width: 800px;
+}
+
+.colors div, .fonts div{
     display: inline-block;
-    width: 300px;
-    padding-left: 30px;
+    width: 46.7%;
+    padding: 10px;
+    vertical-align: top;
+}
+
+.fonts h2 {
+    text-decoration: underline;
+}
+
+.fonts p {
+    font-size: 16px;
 }
 
 #color1 {
@@ -37,10 +53,24 @@ p {
 
 #color4 {
     background-color: #123C69;
+    color: white;
 }
 
 #color5 {
     background-color: #AC3B61;
+    color: white;
+}
+
+#font1 p {
+    font-family: Merriweather;
+}
+
+#font2 p {
+    font-family: 'Open Sans';
+}
+
+#font3 p {
+    font-family: Lato;
 }
 
 .italic {

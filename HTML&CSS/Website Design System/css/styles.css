@@ -1,0 +1,44 @@
+h1 {
+    font-family: Merriweather;
+    font-weight: 800;
+    font-size: 24px;
+}
+
+
+h2 {
+    font-family: Lato;
+    font-weight: 700;
+    font-size: 18px;
+}
+
+p {
+    font-family: "Open Sans";
+    font-weight: 400;
+    font-size: 14px;
+}
+
+.colors div{
+    display: inline-block;
+    width: 300px;
+    padding-left: 30px;
+}
+
+#color1 {
+    background-color: #EDC7B7;
+}
+
+#color2 {
+    background-color: #EEE2DC;
+}
+
+#color3 {
+    background-color: #BAB2B5;
+}
+
+#color4 {
+    background-color: #123C69;
+}
+
+#color5 {
+    background-color: #AC3B61;
+}

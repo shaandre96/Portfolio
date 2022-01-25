@@ -42,3 +42,11 @@ p {
 #color5 {
     background-color: #AC3B61;
 }
+
+.italic {
+    font-style: italic;
+}
+
+.bold {
+    font-weight: 600;
+}

@@ -1,0 +1,35 @@
+.leftside, .rightside {
+    height: 500px;
+    width: 100%;
+}
+
+h1 {
+    font-family: Merriweather;
+    font-weight: 800;
+    font-size: 28px;
+}
+
+p {
+    font-family: "Open Sans";
+    font-size: 18px;
+}
+
+.leftside {
+    display: inline-block;
+    overflow: hidden;
+    background-image: url("./logo.jfif");
+    
+}
+
+.rightside {
+    text-align: center;
+    background-color: #e77120;
+}
+
+#coming-soon {
+    display: inline-block;
+    position: relative;
+    top: 35%;
+    color: #e5e5e5;
+}
+

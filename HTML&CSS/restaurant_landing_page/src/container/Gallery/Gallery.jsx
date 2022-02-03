@@ -14,6 +14,9 @@ const Gallery = () => {
       current.scrollLeft += 300;
     }
   }
+
+  const imageArray = [images.gallery01, images.gallery02, images.gallery03, images.gallery04];
+
   return(
     <div className='app__gallery flex__center'>
       <div className='app__gallery-content'>
@@ -26,7 +29,12 @@ const Gallery = () => {
 
       <div className='app__gallery-images'>
         <div className='app__gallery-images_container' ref={scrollRef}>
-
+          {imageArray.map((image, index) => (
+            <div className='app__gallery-images_card flex__center' key={`gallery_image-${index + 1}`}>
+              <img src={image} alt='gallery_img'/>
+              <BsInstagram className="gallery__image-icon"/>
+            </div>
+          ))} 
         </div>
         <div className='app__gallery-images_arrows'>
           <BsArrowLeftShort className='gallery__arrow-icon' onClick={()=> scroll('left')}/>

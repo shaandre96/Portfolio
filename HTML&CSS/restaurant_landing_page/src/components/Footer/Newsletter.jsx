@@ -11,8 +11,8 @@ const Newsletter = () => (
       <p className='p__opensans'> And never miss latest updates!</p>
     </div>
     <div className='app__newsletter-input flex__center'>
-      <input type='email' placeholder='Enter your E-mail Address'/>
-      <button type='button' className='custom_button'>Subscribe</button>
+      <input type='email' placeholder='Enter your e-mail address'/>
+      <button type='button' className='custom__button'>Subscribe</button>
     </div>
   </div> 
 );

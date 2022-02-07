@@ -4,7 +4,7 @@ export const projects = [
   description: 'This is a high-end restaurant landing page bootstrapped with React.js',
       image: '/images/gericht.png',
       tags: ['React', 'Node'],
-    source: 'https://gericht-restaurant.com',
+    source: 'https://https://github.com/shaandre96/Portfolio/tree/main/HTML%26CSS/restaurant_landing_page',
     visit: 'https://gericht-restaurant.com',
     id: 0,
   },

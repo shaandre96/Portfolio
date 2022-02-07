@@ -7,6 +7,10 @@ export const Img = styled.img`
   overflow: hidden;
 `
 
+export const Div = styled.div`
+  margin-top: 2rem;
+`
+
 export const GridContainer = styled.section`
 display: grid;
 grid-template-columns: repeat(auto-fill, minmax(400px, 1fr));
@@ -89,10 +93,10 @@ export const UtilityList = styled.ul`
 `;
 
 export const ExternalLinks = styled.a`
-color:#d4c0c0;
+color:#0F1624;
 font-size: 1.6rem;
 padding:1rem 1.5rem;
-background: #6b3030;
+background: #EEE2DC;
 border-radius: 15px;
 transition: 0.5s;
 &:hover{

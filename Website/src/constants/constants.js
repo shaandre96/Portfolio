@@ -44,3 +44,10 @@ export const TimeLineData = [
   { year: 2020, text: 'Consolidated front-end technologies', },
   { year: 2021, text: 'Filled my portfolio with exciting new projects', },
 ];
+
+export const Data = [
+  { number: 20, text: 'Open Source Projects'},
+  { number: 1000, text: 'Students', },
+  { number: 1900, text: 'Github Followers', },
+  { number: 5000, text: 'Github Stars', }
+];

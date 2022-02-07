@@ -42,7 +42,9 @@ const Technologies = () =>  (
         </ListContainer>
       </ListItem>
     </List>
+    <SectionDivider/>
   </Section>
+  
 );
 
 export default Technologies;

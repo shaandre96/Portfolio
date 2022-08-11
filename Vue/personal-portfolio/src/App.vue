@@ -19,7 +19,7 @@
   text-align: center;
   background-color: $dark_blue;
 
-  height: 100vh;
+  height: 5000px;
   width: 100%;
 
 }

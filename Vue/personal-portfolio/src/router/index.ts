@@ -18,6 +18,11 @@ const routes: Array<RouteRecordRaw> = [
 ]
 
 const router = createRouter({
+  scrollBehavior(to, from, savePosition){
+    if(to.hash){
+      return {el: to.hash} 
+    }
+  },
   history: createWebHashHistory(),
   routes
 })

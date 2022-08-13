@@ -4,3 +4,38 @@ $charcoal: #333237;
 $teal: #add4d3;
 $bright_orange: #FB8351;
 $dark_blue: #0F1624;
+
+.text-overlay {
+    background: -webkit-linear-gradient(90deg, #ffffff 0%, #c1c1c1 100%);
+    background: linear-gradient(90deg, #ffffff 0%, #c1c1c1 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.text-container{
+    flex-grow: 1;
+    max-width: 50%;
+    padding: 5em;
+    
+    
+}
+
+.title {
+    font-weight: 500;
+    font-size: 71px;
+    line-height: 60px;
+    max-width: 100%;
+    // background: linear-gradient(121.57deg, #FFFFFF 18.77%, rgba(255, 255, 255, 0.66) 60.15%);
+    margin: unset;
+    text-align: start;
+    padding-bottom: 1em;
+}
+
+.body{
+    text-align: start;
+    color: $gray;
+    font-size: 25px;
+    line-height: 35px;
+    font-weight: 300;
+    margin: unset;
+}

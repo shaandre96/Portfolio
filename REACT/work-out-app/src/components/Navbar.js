@@ -1,8 +1,9 @@
 import React from 'react'
-import { Link } from "react-router-dom";
+// import { Link } from "react-router-dom";
+import { HashLink as Link } from 'react-router-hash-link';
 import { Stack } from '@mui/material';
 
-import Logo from '../assets//images/Logo.png';
+import Logo from '../assets//images/weightlifter.png';
 const Navbar = () => {
   return (
     // <div>Navbar</div>
@@ -22,7 +23,7 @@ const Navbar = () => {
         fontSize="24px"
         alignItems="flex-end">
             <Link to="/" 
-            style={{textDecoration: 'none', color: '#3a1212', borderBottom: '3px solid #ff2625'}}>Home</Link>
+            style={{textDecoration: 'none', color: '#3a1212', borderBottom: '3px solid #5570FD'}}>Home</Link>
             <a href="#exercises" 
             style={{textDecoration: 'none', color: "#3a1212"}}>Exercises</a>
         </Stack>

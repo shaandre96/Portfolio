@@ -1,9 +1,10 @@
 import React from 'react';
 import { Box, Stack, Typography, Button } from '@mui/material';
 
-import HeroBannerImage from "../assets/images/banner.png";
+import HeroBannerImage from "../assets/images/runner.jpg";
 
 const HeroBanner = () => {
+    
   return (
     <Box 
     sx={{
@@ -13,7 +14,7 @@ const HeroBanner = () => {
     p="20px"
     >
         <Typography 
-        color="#FF2625" 
+        color="#5570FD" 
         fontWeight="600" 
         fontSize="26px">            
             Fitness Club
@@ -33,14 +34,14 @@ const HeroBanner = () => {
         </Typography>
         <Button 
         variant="contained"
-        color="error"
+        color="secondary"
         href="#exercises"
-        sx={{backgroundColor:"#ff2625", padding:"10px"}}>
+        sx={{backgroundColor:"#5570FD", padding:"10px"}}>
             Explore Exercises
         </Button>
         <Typography
         fontWeight="600"
-        color="#ff2625"
+        color="#5570FD"
         sx={{opacity: "0.1", display: {lg:"block", xs:"none"}}}
         fontSize="200px"
         >Exercise</Typography>

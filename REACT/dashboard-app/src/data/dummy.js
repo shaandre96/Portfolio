@@ -3182,7 +3182,7 @@ export const stackedCustomSeries = [
     yName: 'y',
     name: 'Budget',
     type: 'StackingColumn',
-    background: 'blue',
+    fill: '#4ADE80',
 
   },
 
@@ -3191,7 +3191,7 @@ export const stackedCustomSeries = [
     yName: 'y',
     name: 'Expense',
     type: 'StackingColumn',
-    background: 'red',
+    fill: '#F87171',
 
   },
 

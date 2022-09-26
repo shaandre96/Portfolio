@@ -7,7 +7,7 @@ import { useStateContext } from '../contexts/ContextProvider';
 
 const Ecommerce = () => {
 
-
+  const { currentColor } = useStateContext();
 
   return (
     <div className='mt-12'>
@@ -20,10 +20,10 @@ const Ecommerce = () => {
             </div>
           </div>
           <div className='mt-6'>
-            <Button color='white' bgColor='blue' text='Download' borderRadius='10px' size='md' />
+            <Button color='white' bgColor={currentColor} text='Download' borderRadius='10px' size='md' />
           </div>
         </div>
-        <div className='flex-3 flex-wrap justify-center gap-1 items-center' >
+        <div className='flex flex-wrap justify-center gap-1 items-center' >
           {earningData.map((item)=>(
             <div key={item.title} className='bg-white dark:text-gray-200 dark:bg-secondary-dark-bg md:w-56 p-4 pt-9 rounded-2xl'>
               <button type='button' style={{color: item.iconColor, backgroundColor: item.iconBg}} className='text-2xl opacity-0.9 rounded-full p-4 hover:drop-shadow-xl'>
@@ -43,7 +43,7 @@ const Ecommerce = () => {
             <div className='flex justify-between'>
               <p className='font-semibold text-xl'>Revenue Updates</p>
               <div className='flex items-center gap-4'>
-                <p className='flex items-center gap-2 text-gray-600 hover:drop-shadow-xl'>
+                <p className='flex items-center gap-2 text-red-400 hover:drop-shadow-xl'>
                   <span><GoPrimitiveDot /></span>
                   <span>Expense</span>
                 </p>
@@ -70,19 +70,19 @@ const Ecommerce = () => {
                 </div>
                 <div className='mt-5'>
                   <SparkLine 
-                    currentColor='blue'
+                    currentColor={currentColor}
                     id='line-sparkLine'
                     type='Line'
                     height='80px'
                     width='250px'
                     data={SparklineAreaData}
-                    color='blue'
+                    color={currentColor}
                   />
                 </div>
                 <div className='mt-10'>
                   <Button 
                   color='white'
-                  bgColor='blue'
+                  bgColor={currentColor}
                   text='Download Report'
                   borderRadius='10px'
                   />

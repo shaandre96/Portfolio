@@ -7,7 +7,7 @@ import { useStateContext } from '../contexts/ContextProvider';
 
 const Ecommerce = () => {
 
-  const { currentColor } = useStateContext();
+  const { currentColor, currentMode } = useStateContext();
 
   return (
     <div className='mt-12'>
@@ -92,6 +92,8 @@ const Ecommerce = () => {
                 <Stacked 
                   width='320px'
                   height='360px'
+                  currentColor={currentColor}
+                  currentMode={currentMode}
                 />
               </div>
             </div>

@@ -3,11 +3,9 @@ import { ChartComponent, SeriesCollectionDirective, SeriesDirective, Inject, Leg
 
 import { stackedCustomSeries, stackedPrimaryXAxis, stackedPrimaryYAxis } from '../../data/dummy'
 
-import { useStateContext } from '../../contexts/ContextProvider'
-
-const Stacked = ({width, height}) => {
-
-  const {currentMode, currentColor} = useStateContext();
+class Stacked extends React.PureComponent {
+  render(){
+  const {width, height, currentMode, currentColor} = this.props;
 
   return (
     <ChartComponent
@@ -28,6 +26,7 @@ const Stacked = ({width, height}) => {
       <Inject services={[Legend, Category, StackingColumnSeries, Tooltip]} />
     </ChartComponent>
   )
+}
 }
 
 export default Stacked
